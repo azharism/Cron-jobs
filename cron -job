@@ -1,0 +1,8 @@
+* Minute. The minute of the hour the command will run, ranging from 0-59.
+* Hour. The hour the command will run, ranging from 0-23 in a 24-hour notation.
+* Day of the month. The date of the month the user wants the command to run, ranging from 1-31.
+* Month. The month that the user wants the command to run. It ranges from 1-12, representing January until December.
+* Day of the week. The day of the week for a command to run, ranging from 0-6. The value represents Sunday-Saturday. In some systems, the value 7 represents Sunday.
+
+
+  * * * * *   (minut , hour, day of the month(1-31), month(1-12) day of the week (0-6) sunday to saturday) 
