@@ -5,4 +5,15 @@
 * Day of the week. The day of the week for a command to run, ranging from 0-6. The value represents Sunday-Saturday. In some systems, the value 7 represents Sunday.
 
 
-  * * * * *   (minut , hour, day of the month(1-31), month(1-12) day of the week (0-6) sunday to saturday) 
+  * * * * *   (minut , hour, day of the month(1-31), month(1-12) day of the week (0-6) sunday to saturda
+============================================================================================================================
+crontab --------------------------------------------------------
+time based job scheduler
+
+1. crontab -e   --------- edit cron jobs
+2. crontab -l   ------------ list all crojobs
+3. crontab -r   ------------- remove all your cron jobs
+============================================================================
+awk 
+
+awk '{print $1 }' friends.txt
